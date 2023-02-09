@@ -1,1 +1,38 @@
+//Uppgift 1//
 
+
+let myjewelery = 502;
+
+if ( myjewelery < 499) {
+    console.log("You got Iron!");
+} else if (myjewelery < 999){
+    console.log("You got Silver!");
+} else {
+    console.log("You got Gold! or something really shitty");
+}
+
+// Uppgift 2 //
+
+let skottår = 2022
+
+if (skottår % 4){
+    alert(`${skottår} Is a leap year`)
+} else {
+    alert(`${skottår} Is not a leap year :(`)
+}
+
+// Uppgift 3 //
+
+
+for (let i = 1; i <= 13; i++){
+    let myrandomInteger = Math.floor(Math.random()*3)
+    if (myrandomInteger == 0){
+        console.log(`rad ${i}. har 1`)
+    } else if (myrandomInteger == 1){
+        console.log(`rad ${i}. har x`)
+    } else {
+        console.log(`rad ${i}. har 2`)
+
+    }
+
+}
